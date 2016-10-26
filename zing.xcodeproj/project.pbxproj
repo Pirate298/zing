@@ -12,6 +12,7 @@
 		9AB6911E1D927879001EE88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB6911C1D927879001EE88A /* Main.storyboard */; };
 		9AB691201D927879001EE88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB6911F1D927879001EE88A /* Assets.xcassets */; };
 		9AB691231D927879001EE88A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB691211D927879001EE88A /* LaunchScreen.storyboard */; };
+		9AB6912C1D92793A001EE88A /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB6912B1D92793A001EE88A /* zing-mp3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9AB6911F1D927879001EE88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB691221D927879001EE88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB691241D927879001EE88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB6912B1D92793A001EE88A /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		9AB691171D927879001EE88A /* zing */ = {
 			isa = PBXGroup;
 			children = (
+				9AB6912A1D9278C2001EE88A /* anh */,
 				9AB691181D927879001EE88A /* AppDelegate.swift */,
 				9AB6911A1D927879001EE88A /* ViewController.swift */,
 				9AB6911C1D927879001EE88A /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				9AB691241D927879001EE88A /* Info.plist */,
 			);
 			path = zing;
+			sourceTree = "<group>";
+		};
+		9AB6912A1D9278C2001EE88A /* anh */ = {
+			isa = PBXGroup;
+			children = (
+				9AB6912B1D92793A001EE88A /* zing-mp3.jpg */,
+			);
+			name = anh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AB6912C1D92793A001EE88A /* zing-mp3.jpg in Resources */,
 				9AB691231D927879001EE88A /* LaunchScreen.storyboard in Resources */,
 				9AB691201D927879001EE88A /* Assets.xcassets in Resources */,
 				9AB6911E1D927879001EE88A /* Main.storyboard in Resources */,
